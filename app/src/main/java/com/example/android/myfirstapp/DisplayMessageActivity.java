@@ -40,6 +40,8 @@ public class DisplayMessageActivity extends AppCompatActivity {
         //Provide target for message to display
         RelativeLayout layout = (RelativeLayout) findViewById(R.id.content);
         layout.addView(textView);
+
+        //New comment added here
     }
 
 }
